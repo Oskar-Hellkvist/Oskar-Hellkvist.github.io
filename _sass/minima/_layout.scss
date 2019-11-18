@@ -8,6 +8,9 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  >.wrapper{
+    padding: 20px 30px;
+  }
 }
 
 .site-title {
@@ -195,8 +198,7 @@
 
   > li {
     margin-bottom: $spacing-unit;
-    background-color: rgba(255, 255, 255, .5);
-    padding: 20px;
+    background-color: rgba(189, 189, 189, 0.2);
     border-left: 5px solid rgb(148, 148, 148);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -213,12 +215,17 @@
   font-size: $small-font-size;
   color: $grey-color;
   float: right;
+  padding: 10px;
 }
 
 .post-link {
-  color: rgb(57, 181, 230);
+  color: black;
   display: block;
+  padding: 20px;
   @include relative-font-size(1.5);
+  &:hover{
+    color: rgb(57, 181, 230);
+  }
 }
 
 .rss-subscribe {
