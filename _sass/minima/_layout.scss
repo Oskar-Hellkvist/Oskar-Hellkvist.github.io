@@ -21,7 +21,9 @@
   margin-bottom: 0;
   float: left;
   font-size: 2.3em;
-  &,
+  &:hover{
+    text-decoration: underline;
+  }
   &:visited {
     color: $grey-color-dark;
   }

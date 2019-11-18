@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Static site generators"
-date:   2019-11-18 16:02:33 -0600
+date:   2019-11-18 16:02:33 +0100
 categories: Static generator site 
 comments: true
 ---

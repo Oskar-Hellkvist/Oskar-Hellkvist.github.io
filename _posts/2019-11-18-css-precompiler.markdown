@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "CSS precompilers"
-date:   2019-11-18 15:38:09 -0600
+date:   2019-11-18 15:38:09 +0100
 categories: CSS css precompiler precompilers sass SASS
 comments: true
+future: true
 ---
 I think CSS-precompilers are good, they let you combine regular CSS and programming which makes it easier to make more sophisticated styling.
 
