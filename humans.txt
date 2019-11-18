@@ -1,0 +1,6 @@
+Author: oh222gw
+Contact: oh222gw@student.lnu.se
+From: Kalmar, Sweden
+IDE: VS Code
+Language: English
+Doctype: HTML5

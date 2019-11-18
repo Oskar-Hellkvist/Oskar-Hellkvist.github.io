@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Comments with disqus"
+date:   2019-11-18 23:32:21 +0100
+categories: comments disqus
+comments: true
+---
+
+I implemented comments on every post in the following steps:
+
+1. I took a look at [their site][disqus-url] for more understanding on how to implement it.
+2. I created an account for their service and subscribed to the free option.
+3. I checked for their "universal solution" code which had my user info tailored into it, copied it and pasted it into my `disqus-comments.html`.
+4. I added some configuration in the config.yml file to enable it.
+```
+disqus:
+  shortname: oh222gw
+```
+5. And lastly I set comments to true on every post.
+```
+comments: true
+```
+
+[disqus-url]: https://disqus.com/admin/universalcode/
