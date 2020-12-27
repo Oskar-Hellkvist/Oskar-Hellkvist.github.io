@@ -12,3 +12,9 @@ I don't really have anything to keep away from bots on the site so this will do 
 User-Agent: *
 Disallowed:
 ```
+## What is robots.txt used for?
+The robots.txt file is a file that the webmaster creates in order to tell web crawlers how to navigate the website and what is allowed and what isn't.
+### User-Agent field
+The user-agent field is used to tell web crawlers what user-agents that are allowed on certain parts of the website.
+### Disallowed field
+The disallowed field indicates what parts of the website robots are not allowed to traverse. This could be some internal parts of the website that should not be indexed on the internet. In the disallowed field you specify the URL in string format.
