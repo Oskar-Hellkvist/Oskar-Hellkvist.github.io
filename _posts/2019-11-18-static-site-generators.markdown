@@ -5,7 +5,7 @@ date:   2019-11-18 16:02:33 +0100
 categories: Static generator site 
 comments: true
 ---
-Static site generators can be a good thing when it comes to creating fast websites that work out of the box. Although the configuration can be a bit confusing if you're a beginner it's still less work than making your website from scratch.
+A Static Site Generator is a way to more efficiently serve websites and it's contents. The previous way to structure a website was to create separate files for each page on the site. These files would then get loaded in whenever requested. A Static Site Generator does all that ahead of time, it loads all the possible pages on a site in advance to lower the request time for the user browsing the page. The only thing that takes longer is building the application when deploying it but this has no effect on the end user.
 
 ### Where do you use static site generators?
-Generators can be used for websites where the style and the layout isn't the focus of the page e.g. blogs like this one.
+Generators can be used in blog pages or news websites for example. Using an SSG works best when using it to build a page with a lot of subpages like on a news website with articles.
